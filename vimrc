@@ -19,6 +19,7 @@ Bundle 'joonty/vim-phpunitqf'
 Bundle 'greplace.vim'
 Bundle 'elzr/vim-json'
 Bundle 'lunaru/vim-twig'
+Bundle 'groenewege/vim-less'
 "Bundle 'tpope/vim-fugitive'
 "Bundle 'Lokaltog/vim-easymotion'
 "Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
