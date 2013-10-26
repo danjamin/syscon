@@ -39,3 +39,5 @@ Open vim in your project directory
 Activate NERDTree
 
     : NERDTree
+
+For debugging, see [Vdebug](https://github.com/joonty/vdebug)

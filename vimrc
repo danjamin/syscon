@@ -20,6 +20,7 @@ Bundle 'greplace.vim'
 Bundle 'elzr/vim-json'
 Bundle 'lunaru/vim-twig'
 Bundle 'groenewege/vim-less'
+Bundle 'joonty/vdebug.git'
 "Bundle 'tpope/vim-fugitive'
 "Bundle 'Lokaltog/vim-easymotion'
 "Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
