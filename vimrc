@@ -12,11 +12,11 @@ Bundle 'gmarik/vundle'
 "
 " original repos on github
 Bundle 'php.vim'
-Bundle 'joonty/vim-phpqa.git'
-Bundle 'joonty/vim-taggatron'
+Bundle 'joonty/vim-sauce.git'
+Bundle 'joonty/vdebug.git'
 Bundle 'scrooloose/nerdtree'
+Bundle 'joonty/vim-phpqa.git'
 Bundle 'joonty/vim-phpunitqf'
-Bundle 'greplace.vim'
 Bundle 'elzr/vim-json'
 Bundle 'lunaru/vim-twig'
 Bundle 'groenewege/vim-less'
@@ -62,6 +62,8 @@ let g:tagcommands = {"php":{"tagfile":"php.tags","args":"-R","cmd":"ctags"}}
 let g:phpqa_codesniffer_args = "--standard=/usr/local/opt/php-code-sniffer/CodeSniffer/Standards/PSR2/ruleset.xml"
 let g:phpqa_messdetector_autorun = 0  " Disable mess detector
 
+let g:vdebug_options = {'on_close': 'detach', 'ide_key': 'xdebug'} 
+
 " Mappings
 
 " Window mappings
@@ -76,3 +78,7 @@ map <c-space> ?
 
 " Insertion mappings
 map <CR> o<ESC>
+
+let g:vdebug_options = {}
+let g:vdebug_options['on_close'] = 'detach'
+let g:vdebug_options['ide_key'] = 'xdebug'
