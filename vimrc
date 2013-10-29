@@ -61,3 +61,18 @@ let g:tagcommands = {"php":{"tagfile":"php.tags","args":"-R","cmd":"ctags"}}
 " configure phpqa (code sniffing)
 let g:phpqa_codesniffer_args = "--standard=/usr/local/opt/php-code-sniffer/CodeSniffer/Standards/PSR2/ruleset.xml"
 let g:phpqa_messdetector_autorun = 0  " Disable mess detector
+
+" Mappings
+
+" Window mappings
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
+
+" Search mappings
+map <space> /
+map <c-space> ?
+
+" Insertion mappings
+map <CR> o<ESC>
