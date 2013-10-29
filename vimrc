@@ -52,18 +52,6 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
-" configure taggatron
-" initially, you need to run:
-" ctags -f php.tags --languages=PHP -R
-set tags=php.tags
-let g:tagcommands = {"php":{"tagfile":"php.tags","args":"-R","cmd":"ctags"}}
-
-" configure phpqa (code sniffing)
-let g:phpqa_codesniffer_args = "--standard=/usr/local/opt/php-code-sniffer/CodeSniffer/Standards/PSR2/ruleset.xml"
-let g:phpqa_messdetector_autorun = 0  " Disable mess detector
-
-let g:vdebug_options = {'on_close': 'detach', 'ide_key': 'xdebug'} 
-
 " Mappings
 
 " Window mappings
