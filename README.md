@@ -41,8 +41,7 @@ Projects are managed with [Sauce for Vim](https://github.com/joonty/vim-sauce).
 Individual projects often have their own configurations (e.g. code sniffing rules, tag file names, path maps, etc.).
 These are configurable in a sauce file for each project.
 
-    $ vim
-    : SauceNew foo
+    $ vim +"SauceNew foo"
 
 Here is an example sauce file:
 
@@ -71,12 +70,10 @@ Here is an example sauce file:
 
 You can then edit the sauce file at any time:
 
-    $ vim
-    : SauceEdit foo
+    $ vim +"SauceEdit foo"
 
 Open a project at any time from anywhere:
 
-    $ vim
-    : Sauce foo
+    $ vim +"Sauce foo"
 
 For info on debugging, see [Vdebug](https://github.com/joonty/vdebug)
