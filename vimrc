@@ -13,7 +13,7 @@ Bundle 'gmarik/vundle'
 " original repos on github
 Bundle 'php.vim'
 Bundle 'joonty/vim-sauce.git'
-Bundle 'joonty/vdebug.git'
+"Bundle 'joonty/vdebug.git'
 Bundle 'scrooloose/nerdtree'
 Bundle 'joonty/vim-phpqa.git'
 Bundle 'joonty/vim-phpunitqf'
@@ -67,6 +67,6 @@ map <c-space> ?
 " Insertion mappings
 map <CR> o<ESC>
 
-let g:vdebug_options = {}
-let g:vdebug_options['on_close'] = 'detach'
-let g:vdebug_options['ide_key'] = 'xdebug'
+"let g:vdebug_options = {}
+"let g:vdebug_options['on_close'] = 'detach'
+"let g:vdebug_options['ide_key'] = 'xdebug'

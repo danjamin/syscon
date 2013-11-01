@@ -62,11 +62,11 @@ Here is an example sauce file:
     let g:phpqa_codesniffer_args = "--standard=/usr/local/opt/php-code-sniffer/CodeSniffer/Standards/PSR2/ruleset.xml"
     let g:phpqa_messdetector_autorun = 0  " Disable mess detector
 
-    let g:vdebug_options = {}                                                                                                                                                                                                                                                                                                         
-    let g:vdebug_options['path_maps'] = {'/path/on/remote': g:current_dir}
+    "let g:vdebug_options = {}
+    "let g:vdebug_options['path_maps'] = {'/path/on/remote': g:current_dir}
     
     " total hack to re-read vdebug options
-    silent source /path/to/.vim/bundle/vdebug/plugin/vdebug.vim
+    "silent source /path/to/.vim/bundle/vdebug/plugin/vdebug.vim
 
 You can then edit the sauce file at any time:
 
