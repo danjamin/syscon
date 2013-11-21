@@ -35,7 +35,7 @@ The `~/.vimrc` file contains global configurations.
 
 Projects are managed with [Sauce for Vim](https://github.com/joonty/vim-sauce).
 
-Individual projects often have their own configurations (e.g. code sniffing rules, tag file names, path maps, etc.).
+Individual projects often have their own configurations (e.g. code sniffing rules, tag file names, etc.).
 These are configurable in a sauce file for each project.
 
     $ vim +"SauceNew foo"
@@ -49,7 +49,7 @@ Here is an example sauce file:
     exec 'cd ' . g:current_dir
     exec 'NERDTree ' . g:current_dir
 
-    " configure taggatron
+    " configure tags
     " initially, you need to run:
     " ctags -f php.tags --languages=PHP -R
     set tags=php.tags
