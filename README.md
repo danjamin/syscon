@@ -10,9 +10,6 @@ Install PHP code sniffer; for example, via [Homebrew](http://brew.sh)
 
     $ brew install php-code-sniffer
 
-Install and configure Xdebug
-> Note: the default idekey is `xdebug.idekey "xdebug"` 
-
 installation
 ======
 
@@ -56,17 +53,10 @@ Here is an example sauce file:
     " initially, you need to run:
     " ctags -f php.tags --languages=PHP -R
     set tags=php.tags
-    let g:tagcommands = {"php":{"tagfile":"php.tags","args":"-R","cmd":"ctags"}}
 
     " configure phpqa (code sniffing)
     let g:phpqa_codesniffer_args = "--standard=/usr/local/opt/php-code-sniffer/CodeSniffer/Standards/PSR2/ruleset.xml"
     let g:phpqa_messdetector_autorun = 0  " Disable mess detector
-
-    "let g:vdebug_options = {}
-    "let g:vdebug_options['path_maps'] = {'/path/on/remote': g:current_dir}
-    
-    " total hack to re-read vdebug options
-    "silent source /path/to/.vim/bundle/vdebug/plugin/vdebug.vim
 
 You can then edit the sauce file at any time:
 
@@ -75,5 +65,3 @@ You can then edit the sauce file at any time:
 Open a project at any time from anywhere:
 
     $ vim +"Sauce foo"
-
-For info on debugging, see [Vdebug](https://github.com/joonty/vdebug)

@@ -13,7 +13,6 @@ Bundle 'gmarik/vundle'
 " original repos on github
 Bundle 'php.vim'
 Bundle 'joonty/vim-sauce.git'
-"Bundle 'joonty/vdebug.git'
 Bundle 'scrooloose/nerdtree'
 Bundle 'joonty/vim-phpqa.git'
 Bundle 'joonty/vim-phpunitqf'
