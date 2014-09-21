@@ -1,54 +1,37 @@
 set nocompatible               " be iMproved
-"filetype off                   " required! (breaks crontab and git rebase -i)
+filetype off                   " required! (breaks crontab and git rebase -i)
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
   
-" let Vundle manage Vundle
-" required! 
-Bundle 'gmarik/vundle'
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
 
-" My Bundles here:
-"
-" original repos on github
-Bundle 'php.vim'
-Bundle 'joonty/vim-sauce.git'
-Bundle 'scrooloose/nerdtree'
-Bundle 'joonty/vim-phpqa.git'
-Bundle 'joonty/vim-phpunitqf'
-Bundle 'elzr/vim-json'
-Bundle 'lunaru/vim-twig'
-Bundle 'groenewege/vim-less'
-Bundle 'mustache/vim-mode'
-"Bundle 'tpope/vim-fugitive'
-"Bundle 'Lokaltog/vim-easymotion'
-"Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-"Bundle 'tpope/vim-rails.git'
-" vim-scripts repos
-"Bundle 'L9'
-"Bundle 'FuzzyFinder'
-" non github repos
-"Bundle 'git://git.wincent.com/command-t.git'
-" git repos on your local machine (ie. when working on your own plugin)
-"Bundle 'file:///Users/gmarik/path/to/plugin'
-" ...
+" My Bundles; correspond to github repos:
+Plugin 'joonty/vim-sauce.git'
+Plugin 'scrooloose/nerdtree'
+Plugin 'elzr/vim-json'
+
+call vundle#end()             " required!
 
 filetype plugin indent on     " required!
+
+
 "
 " Brief help
-" :BundleList          - list configured bundles
-" :BundleInstall(!)    - install(update) bundles
-" :BundleSearch(!) foo - search(or refresh cache first) for foo
-" :BundleClean(!)      - confirm(or auto-approve) removal of unused bundles
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just
+" :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
 "
 " see :h vundle for more details or wiki for FAQ
-" NOTE: comments after Bundle command are not allowed..
+" Put your non-Plugin stuff after this line
 
 syntax on
 set number
-set cursorline
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 set hlsearch
 
