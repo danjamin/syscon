@@ -11,6 +11,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'joonty/vim-sauce.git'
 Plugin 'scrooloose/nerdtree'
 Plugin 'elzr/vim-json'
+Plugin 'pangloss/vim-javascript'
 
 call vundle#end()             " required!
 
