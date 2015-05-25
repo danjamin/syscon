@@ -1,31 +1,20 @@
-syscon
-======
+# syscon
 
 my system configuration (e.g. ~/.vimrc)
 
-dependencies
-======
+## installation
 
-Install [Vundle](https://github.com/gmarik/vundle)
+Run the install script
 
-installation
-======
+```sh
+$ ./install
+```
 
-Backup current vimrc file
+This command will install Vundle, it will also replace your ~/.vimrc and
+~/.bash_profile files and back them up
 
-    $ cp ~/.vimrc ~/.vimrcbackup
-    $ rm ~/.vimrc
 
-Create a symbolic link to vimrc
-
-    $ ln -s `pwd`/vimrc ~/.vimrc
-
-Install Vundle dependencies
-
-    $ vim +PluginInstall +qall
-
-usage
-======
+## usage
 
 The `~/.vimrc` file contains global configurations.
 
