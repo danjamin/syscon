@@ -7,7 +7,7 @@ my system configuration (e.g. ~/.vimrc, ~/.bash_profile, ...)
 Run the install script
 
 ```sh
-$ ./install
+$ ./install.sh
 ```
 
 This command will install Vundle, it will also replace your ~/.vimrc and
