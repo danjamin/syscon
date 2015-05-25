@@ -3,12 +3,11 @@ filetype off                   " required! (breaks crontab and git rebase -i)
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-  
+
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
 " My Bundles; correspond to github repos:
-Plugin 'joonty/vim-sauce.git'
 Plugin 'scrooloose/nerdtree'
 Plugin 'elzr/vim-json'
 Plugin 'pangloss/vim-javascript'
