@@ -1,6 +1,6 @@
 # syscon
 
-my system configuration (e.g. ~/.vimrc)
+my system configuration (e.g. ~/.vimrc, ~/.bash_profile, ...)
 
 ## installation
 
@@ -16,4 +16,5 @@ This command will install Vundle, it will also replace your ~/.vimrc and
 
 ## usage
 
-The `~/.vimrc` file contains global configurations.
+The `~/.vimrc` file contains global **vim** configurations.
+The `~/.bash_profile` file contains global **system** configurations.
