@@ -10,8 +10,10 @@ Run the install script
 $ ./install.sh
 ```
 
-This command will install Vundle, it will also replace your ~/.vimrc and
-~/.bash_profile files and back them up
+This command will install [Vundle](https://github.com/gmarik/Vundle.vim),
+it will also replace your ~/.vimrc and ~/.bash_profile files and back them up,
+it installs [homebrew](http://brew.sh/) and **node** and **git** via **homebrew**.
+Installing **git** via **homebrew** on Mac OS X restores `git gui`
 
 
 ## usage

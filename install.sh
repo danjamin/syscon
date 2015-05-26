@@ -72,3 +72,21 @@ echo ""
   source $bashprofile
 
 echo "SUCCESS!"
+
+
+# Install homebrew
+
+echo ""
+echo "#####"
+echo "Instaling homebrew and dependencies"
+echo "#####"
+echo ""
+
+  ## Install homebrew
+  echo "Installing homebrew"
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+  ## Install homebrew dependencies
+  echo "Installing homebrew dependencies"
+  brew install git
+  brew install node
