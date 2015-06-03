@@ -4,6 +4,12 @@ my system configuration (e.g. ~/.vimrc, ~/.bash_profile, ...)
 
 ## installation
 
+*Note* if on windows, check out the windows branch first
+
+```sh
+$ git checkout windows
+```
+
 Run the install script
 
 ```sh
