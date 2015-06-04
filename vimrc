@@ -1,5 +1,5 @@
 set nocompatible               " be iMproved
-filetype off                   " required! (breaks crontab and git rebase -i)
+filetype on                   " required! (breaks crontab and git rebase -i)
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
