@@ -7,6 +7,15 @@
 alias ls="ls -GCF"
 alias la="ls -al"
 
+# useful git aliases
+alias git-s="git status"
+alias git-b="git branch"
+alias git-a="git add"
+alias git-l="git log --oneline --decorate"
+alias git-la="git log"
+alias git-co="git checkout"
+alias git-c="git commit"
+
 # useful directory aliases
 alias cdbb="cd /Users/`whoami`/Documents/source/bitbucket"
 alias cdgh="cd /Users/`whoami`/Documents/source/github"
