@@ -15,6 +15,7 @@ alias git-l="git log --oneline --decorate"
 alias git-la="git log"
 alias git-co="git checkout"
 alias git-c="git commit"
+alias git-update="git checkout master && git fetch -p && git pull --ff-only && git branch --merged"
 
 # useful directory aliases
 alias cdbb="cd /Users/`whoami`/Documents/source/bitbucket"
