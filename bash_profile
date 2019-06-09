@@ -24,5 +24,8 @@ lt() {
   tree -L $level .
 }
 
+# configure fzf to use ag and ignore various unwanted files/folders
+export FZF_DEFAULT_COMMAND="ag --hidden --ignore .git --ignore node_modules --ignore .DS_Store -g ''"
+
 # configure fzf to open `vi` on enter, and show preview with `cat`
 export FZF_DEFAULT_OPTS="--bind 'enter:execute(vim {})' --preview 'cat {}'"
