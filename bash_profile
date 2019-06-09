@@ -24,11 +24,13 @@ lt() {
   tree -L $level .
 }
 
+AG_DEFAULT_OPTS="--ignore .git --ignore node_modules --ignore .DS_Store"
+
 # configure the_silver_surfer (ag) to ignore unwanted files/folders
-alias ag="ag --ignore .git --ignore node_modules --ignore .DS_Store"
+alias ag="ag $AG_DEFAULT_OPTS"
 
 # configure fzf to use ag and ignore various unwanted files/folders
-export FZF_DEFAULT_COMMAND="ag --hidden -g ''"
+export FZF_DEFAULT_COMMAND="ag $AG_DEFAULT_OPTS --hidden -g ''"
 
 # configure fzf to open `vi` on enter, and show preview with `cat`
 export FZF_DEFAULT_OPTS="--bind 'enter:execute(vim {})' --preview 'cat {}'"
